@@ -1,40 +1,47 @@
 {
-  "name": "resume-builder",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@hookform/devtools": "^4.3.1",
-    "@tsparticles/all": "^3.7.1",
-    "@tsparticles/react": "^3.0.0",
-    "html2canvas": "^1.4.1",
-    "html2pdf.js": "^0.10.2",
-    "jspdf": "^2.5.2",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.27.0",
-    "react-tsparticles": "^2.12.2",
-    "tsparticles": "^2.12.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.13.0",
-    "@types/react": "^18.3.11",
-    "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react": "^4.3.3",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9.13.0",
-    "eslint-plugin-react": "^7.37.1",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-react-refresh": "^0.4.13",
-    "globals": "^15.11.0",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.14",
-    "vite": "^5.4.11"
-  }
+	"name": "resume-builder",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"homepage": "https://Aabhiraj412.github.io/CraftMyCV",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"lint": "eslint .",
+		"preview": "vite preview",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
+	},
+	"dependencies": {
+		"@hookform/devtools": "^4.3.1",
+		"@rollup/rollup-linux-x64-gnu": "^4.27.4",
+		"@tsparticles/all": "^3.7.1",
+		"@tsparticles/react": "^3.0.0",
+		"html2canvas": "^1.4.1",
+		"html2pdf.js": "^0.10.2",
+		"jspdf": "^2.5.2",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-router-dom": "^6.27.0",
+		"react-tsparticles": "^2.12.2",
+		"tsparticles": "^2.12.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.13.0",
+		"@types/react": "^18.3.11",
+		"@types/react-dom": "^18.3.1",
+		"@vitejs/plugin-react": "^4.3.3",
+		"autoprefixer": "^10.4.20",
+		"eslint": "^9.13.0",
+		"eslint-plugin-react": "^7.37.1",
+		"eslint-plugin-react-hooks": "^5.0.0",
+		"eslint-plugin-react-refresh": "^0.4.13",
+		"gh-pages": "^6.2.0",
+		"globals": "^15.11.0",
+		"postcss": "^8.4.47",
+		"tailwindcss": "^3.4.14",
+		"vite": "^5.4.11"
+	}
 }
+
+
